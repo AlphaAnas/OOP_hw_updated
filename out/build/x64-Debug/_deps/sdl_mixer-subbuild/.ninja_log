@@ -1,0 +1,19 @@
+# ninja log v5
+3	143	7216467937470252	sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-mkdir	6dc84456aeffe177
+3	143	7216467937470252	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl_mixer-subbuild/sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-mkdir	6dc84456aeffe177
+144	341544	7216471351621225	sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-download	903b855ba796c383
+144	341544	7216471351621225	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl_mixer-subbuild/sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-download	903b855ba796c383
+341544	341616	7216471352323914	sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-patch	93e98f95082d2836
+341544	341616	7216471352323914	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl_mixer-subbuild/sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-patch	93e98f95082d2836
+341616	341709	7216471353263592	sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-configure	48465e391a9ea84f
+341616	341709	7216471353263592	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl_mixer-subbuild/sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-configure	48465e391a9ea84f
+341709	341794	7216471354130236	sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-build	3db0955293166e00
+341709	341794	7216471354130236	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl_mixer-subbuild/sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-build	3db0955293166e00
+341794	341877	7216471354847382	sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-install	af1f3b5bb94d1906
+341794	341877	7216471354847382	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl_mixer-subbuild/sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-install	af1f3b5bb94d1906
+341877	341949	7216471355709938	sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-test	b0c4300e39bc407b
+341877	341949	7216471355709938	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl_mixer-subbuild/sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-test	b0c4300e39bc407b
+341949	342049	7216471356679114	CMakeFiles/sdl_mixer-populate-complete	742d7530a59959e4
+341949	342049	7216471356679114	sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-done	742d7530a59959e4
+341949	342049	7216471356679114	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl_mixer-subbuild/CMakeFiles/sdl_mixer-populate-complete	742d7530a59959e4
+341949	342049	7216471356679114	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl_mixer-subbuild/sdl_mixer-populate-prefix/src/sdl_mixer-populate-stamp/sdl_mixer-populate-done	742d7530a59959e4

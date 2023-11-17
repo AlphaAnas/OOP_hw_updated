@@ -1,0 +1,16 @@
+# Opus codec reference implementation pkg-config file
+
+prefix=D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/install/x64-Debug
+exec_prefix=D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/install/x64-Debug
+libdir=D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/install/x64-Debug/lib
+includedir=D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/install/x64-Debug/include
+
+Name: Opus
+Description: Opus IETF audio codec ( build)
+URL: https://opus-codec.org/
+Version: 0.8.0
+Requires:
+Conflicts:
+Libs: -LD:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/install/x64-Debug/lib -lopus
+Libs.private: 
+Cflags: -ID:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/install/x64-Debug/include/opus

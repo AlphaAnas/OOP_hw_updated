@@ -1,0 +1,3 @@
+D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl_image-subbuild/CMakeFiles/sdl_image-populate.dir
+D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl_image-subbuild/CMakeFiles/edit_cache.dir
+D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl_image-subbuild/CMakeFiles/rebuild_cache.dir

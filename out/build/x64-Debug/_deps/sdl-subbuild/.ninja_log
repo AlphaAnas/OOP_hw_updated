@@ -1,0 +1,19 @@
+# ninja log v5
+4	133	7216456067549516	sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-mkdir	dc292b5225fc08a8
+410461	410579	7216460172004762	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-patch	2f6f0bac02b95e35
+4	133	7216456067549516	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-mkdir	dc292b5225fc08a8
+134	410461	7216460170914498	sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-download	d3af8d1dee4c58bc
+134	410461	7216460170914498	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-download	d3af8d1dee4c58bc
+410580	410694	7216460173110105	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-configure	99cd26cf8e9bce14
+410461	410579	7216460172004762	sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-patch	2f6f0bac02b95e35
+410580	410694	7216460173110105	sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-configure	99cd26cf8e9bce14
+410695	410800	7216460174213469	sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-build	5ad687244fa76a18
+410695	410800	7216460174213469	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-build	5ad687244fa76a18
+410800	410935	7216460175632021	sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-install	22595dd28b093b08
+410800	410935	7216460175632021	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-install	22595dd28b093b08
+410935	411059	7216460176903845	sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-test	92897bf2943d2e2b
+410935	411059	7216460176903845	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-test	92897bf2943d2e2b
+411059	411214	7216460178454478	CMakeFiles/sdl-populate-complete	2eaa96bdd5deba0e
+411059	411214	7216460178454478	sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-done	2eaa96bdd5deba0e
+411059	411214	7216460178454478	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl-subbuild/CMakeFiles/sdl-populate-complete	2eaa96bdd5deba0e
+411059	411214	7216460178454478	D:/Third Semester files/OOP/hw_04_OOP/CS224-HW4-Fall2023/out/build/x64-Debug/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-done	2eaa96bdd5deba0e
