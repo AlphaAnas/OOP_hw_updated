@@ -6,18 +6,18 @@ void HUMania::drawObjects()
 {
     for (Unit* unit : birds) {
         char t;
-        Pigeon* pig = dynamic_cast<Pigeon*>(unit);
-        Bee* be= dynamic_cast<Bee*>(unit);
-        Butterfly* butter=dynamic_cast<Butterfly*>(unit);
-        if(pig){
-            t='p';
-        }
-        else if(be){
-            t='b';
-        }
-        else{
-            t='u';
-        }
+        // Pigeon* pig = dynamic_cast<Pigeon*>(unit);
+        // Bee* be= dynamic_cast<Bee*>(unit);
+        // Butterfly* butter=dynamic_cast<Butterfly*>(unit);
+        // if(pig){
+        //     t='p';
+        // }
+        // else if(be){
+        //     t='b';
+        // }
+        // else{
+        //     t='u';
+        // }
     
   
         unit->draw();

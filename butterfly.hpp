@@ -13,13 +13,13 @@ private:
     bool goUP;
    
 public:
-    SDL_Rect srcRect, moverRect;
+  
     
     
     // add the fly function here as well.
 
     int frameCounter = 0;
-    void draw() override;
+    void draw() ;
     void fly() override;
     Butterfly(int, int); 
    

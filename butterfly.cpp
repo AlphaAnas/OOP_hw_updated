@@ -2,6 +2,7 @@
 // }
 #include "butterfly.hpp"
 #include <vector>
+#include "unit.hpp"
 #include <iostream>
 
 
@@ -11,16 +12,6 @@ const int SCREEN_WIDTH = 1000;
 const int SCREEN_HEIGHT = 600;
 
     
-
-void Butterfly::draw() {
-    std :: cout << "Draw function of Butterfly called \n";
-
-
-        SDL_RenderCopy(Drawing::gRenderer, Drawing::assets, &(this->srcRect), &(this->moverRect));
-    
-  
-    }
-
 
 
 // fly() is overrided from the superclass
@@ -82,8 +73,8 @@ Butterfly::Butterfly(int x, int y)
 {
     // src coorinates from assets.png file, they have been found using spritecow.com
     std::cout<<"Default constructor of Butterfly class called \n";
-    this->srcRect =  {257, 182, 192, 214};
-    this->moverRect = {x, y, 50, 60};
+    Unit::srcRect =  {257, 182, 192, 214};
+    Unit::moverRect = {x, y, 50, 60};
   
     // it will display pigeon on x = 30, y = 40 location, the size of pigeon is 50 width, 60 height
     

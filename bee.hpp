@@ -29,13 +29,13 @@ public:
     int frames =10;     // a variable to check that 10 frames have passed
     int hoverProb  =5;
     int count = 0;  // a variable which starts from 0 and keeps adding itself for 10 frames.
-    SDL_Rect srcRect, moverRect;
+
     
     
     // add the fly function here as well.
 
     int frameCounter = 0;
-    void draw() override;
+    void draw() ;
     void fly() override;
     Bee(int, int); 
    

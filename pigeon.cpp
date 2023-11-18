@@ -1,6 +1,7 @@
 #include "pigeon.hpp"
 #include <vector>
 #include <iostream>
+#include "unit.hpp"
 
 // pigeon implementation will go here.
  std :: vector<Pigeon> pigeons;   // vector which stores pigeons
@@ -14,11 +15,6 @@ const int SCREEN_HEIGHT = 600;
 
     
 
-void Pigeon::draw() {
-    std :: cout << "Draw function of pigeon called \n";
-    // for ( Pigeon&  pigeon : pigeons) {
-        
-        SDL_RenderCopy(Drawing::gRenderer, Drawing::assets, &(this->srcRect), &(this->moverRect));
     
         // frameCounter = (frameCounter + 1)%3 ;  //0 for wings up ;; 1 for wings middle 3 for wings down
 
@@ -35,7 +31,7 @@ void Pigeon::draw() {
         //         this->srcRect  = {2,361,159,124};  //wings down
         // }
        
-    }
+    
 
 
 
@@ -86,20 +82,20 @@ Pigeon::Pigeon(int x, int y)
 {
     // src coorinates from assets.png file, they have been found using spritecow.com
     std::cout<<"Default constructor of Pigeon class called \n";
-    this->srcRect = {7, 88, 160, 103};
-    this->moverRect = {x, y, 50, 60};
+    Unit::srcRect = {7, 88, 160, 103};
+    Unit::moverRect = {x, y, 50, 60};
   
     // it will display pigeon on x = 30, y = 40 location, the size of pigeon is 50 width, 60 height
     
 
 }
 
-Pigeon::Pigeon(SDL_Rect srcRect1,SDL_Rect moverRect1)
-{   
-    std::cout<<"Paramterized constructor of Pigeon class called \n"; // this initializes pigeon1 pigeon2 and pigeon3 for animations using src_rectangle
-    srcRect = srcRect1;
-    moverRect = moverRect1;
-}
+// Pigeon::Pigeon(SDL_Rect srcRect1,SDL_Rect moverRect1)
+// {   
+//     std::cout<<"Paramterized constructor of Pigeon class called \n"; // this initializes pigeon1 pigeon2 and pigeon3 for animations using src_rectangle
+//     srcRect = srcRect1;
+//     moverRect = moverRect1;
+// }
 
 // void makeObjects(int x, int y) 
 // {

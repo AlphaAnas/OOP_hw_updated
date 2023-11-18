@@ -8,8 +8,7 @@ private:
    
    
 public:
-    SDL_Rect srcRect, moverRect;
-    
+   
     
     // add the fly function here as well.
    
@@ -20,13 +19,13 @@ public:
 
 
     int frameCounter = 0;
-    void draw() override;
+    // void draw() ;
     void fly() override;
     // void makeObjects() override;
     Pigeon(int, int); 
    
-     // may add other overloaded constructors here... 
-    Pigeon(SDL_Rect srcRect1,SDL_Rect moverRect1);
+    //  // may add other overloaded constructors here... 
+    // Pigeon(SDL_Rect srcRect1,SDL_Rect moverRect1);
    
 
    

@@ -36,16 +36,7 @@ const int SCREEN_HEIGHT = 600;
 
 
 
-    
 
-void Bee::draw() {
-    std :: cout << "Draw function of Bee called \n";
-
-
-        SDL_RenderCopy(Drawing::gRenderer, Drawing::assets, &(this->srcRect), &(this->moverRect));
-    
-       
-    }
 
 
 
@@ -112,8 +103,8 @@ Bee::Bee(int x, int y)
 {
     // src coorinates from assets.png file, they have been found using spritecow.com
     std::cout<<"Default constructor of Bee class called \n";
-    this->srcRect = {234, 630, 163, 162};
-    this->moverRect = {x, y, 50, 60};
+    Unit::srcRect = {234, 630, 163, 162};
+    Unit::moverRect = {x, y, 50, 60};
   
     // it will display bird on x , y location, the size of pigeon is 50 width, 60 height
     
