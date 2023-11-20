@@ -1,20 +1,3 @@
-// #include<SDL.h>
-// #include "drawing.hpp"
-// class Bee{
-// private:
-//     bee1= {248, 433, 247, 178}
-//     bee2= {257, 182, 192, 214}
-//     bee3= {256, 24, 174, 134}
-//     SDL_Rect srcRect, moverRect;
-//     int frame = 0;
-
-// public:
-//     // add the fly function here as well.
-//     void draw();
-//     void fly();
-//     Bee(); 
-//     // may add other overloaded constructors here... 
-// };
 #include<SDL.h>
 #include "drawing.hpp"
 #include "unit.hpp"
@@ -35,13 +18,14 @@ public:
     // add the fly function here as well.
 
     int frameCounter = 0;
-    void draw() ;
+   
     void fly() override;
+    bool deleting() override;
     Bee(int, int); 
+
    
-     // may add other overloaded constructors here... 
-    Bee(SDL_Rect srcRect1,SDL_Rect moverRect1);
-   
+
+ 
 
    
 };

@@ -11,6 +11,8 @@ class Unit{
          SDL_Rect srcRect, moverRect;
         virtual void draw();
         virtual void fly()  ;
+        virtual bool deleting();
+
       
 
 

@@ -1,30 +1,4 @@
 
-
-
-// // in project implementation this draw function should only be in superclass
-// void Bee::draw(){
-//     SDL_RenderCopy(Drawing::gRenderer, Drawing::assets, &srcRect, &moverRect);
-// }
-
-
-// // fly() is overrided from the superclass
-// void Bee::fly(){
-//     // 
-//     moverRect.x += 5;
-// }
-
-// Bee::Bee(){
-//     // src coorinates from assets.png file, they have been found using spritecow.com
-//     // srcRect = {7,88,160,103};
-//     srand(time(NULL))
-//     int value = rand() %3;
-//     if value ==0:{srcRect = bee1}
-//     else if value ==1 {srcRect = bee2}
-//     else{srcRect = bee3}
-  
-//     // it will display pigeon on x = 30, y = 40 location, the size of pigeon is 50 width, 60 height
-//     moverRect = {30, 40, 50, 60};
-// }
 #include "bee.hpp"
 #include <vector>
 #include <iostream>
@@ -41,15 +15,16 @@ const int SCREEN_HEIGHT = 600;
 
 
 // fly() is overrided from the superclass
-    void Bee::fly(){
+    void Bee::fly()
+    {
   
     
         std::cout << "Fly function of Bee called \n";
         // Update the position of the pigeon
-        if(isHovering)
+        if(isHovering) // if the required condition to hover the bee is satisfied
         {
             count++;
-            if(count > frames)
+            if(count > frames)  // bee hovers for  10 frames for a random 5% probablity
             {
                 count =0;
                 isHovering = false;
@@ -65,14 +40,7 @@ const int SCREEN_HEIGHT = 600;
 
         
 
-            // Check if the Bee went off the right side of the screen
-        if (this->moverRect.x > SCREEN_WIDTH) {
-            this->moverRect.x = 0; // Reappear from the left side
-        }
-        // else if (pigeon.moverRect.x  <=0) {
-        //     pigeon.moverRect.x = SCREEN_WIDTH; // Reappear from the right side
-        // }
-
+     
         // Check if the Bee went off the top of the screen
         if (this->moverRect.y > SCREEN_HEIGHT) {
             this->moverRect.y = 0; // Reappear from the bottom
@@ -110,6 +78,17 @@ Bee::Bee(int x, int y)
     
 
 }
+    bool  Bee::deleting()
+            {
+                std::cout << "Deleting function of bee called "<<std::endl;
+                if(this->moverRect.x > SCREEN_WIDTH)
+                {
+                    return true; // check if the bee went off from the screen width
+                }
+                else{
+                    return false;
+                }
+            }
 
 
 

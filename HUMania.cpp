@@ -5,26 +5,26 @@
 void HUMania::drawObjects()
 {
     for (Unit* unit : birds) {
-        char t;
-        // Pigeon* pig = dynamic_cast<Pigeon*>(unit);
-        // Bee* be= dynamic_cast<Bee*>(unit);
-        // Butterfly* butter=dynamic_cast<Butterfly*>(unit);
-        // if(pig){
-        //     t='p';
-        // }
-        // else if(be){
-        //     t='b';
-        // }
-        // else{
-        //     t='u';
-        // }
+
+       
+        unit->draw();  // calls the draw function in unit class
+        unit->fly();    // calls the virtual draw function in unit class which further goes to the specific bird class 
+
+        bool value = unit->deleting(); // check if the bee went off from the horizontal value
+     
+        if (value)
+        {
+            
+            std :: cout << "DELETING THE BEE" << std::endl;
+            delete unit;        // delete the bee from pointer 
+            birds.remove(unit); // remvoes the bee pointer object from the list
+          
+        }
     
   
-        unit->draw();
-        unit->fly();
+ 
     }
-    // call draw functions of all the objects here
-    // p1.draw();
+
 }
 
 
@@ -32,16 +32,16 @@ void HUMania::drawObjects()
 void HUMania::createObject(int x, int y)
 {
     std::cout << "createObject function of HU MANIA function called \n";
-    ObjectCreator obj;
-    Unit* newbird = obj.getObject(x, y);
-    birds.push_back(newbird);
+    ObjectCreator obj;    
+    Unit* newbird = obj.getObject(x, y); // function returns any bird wherefore newbird pointer points towards it
+    birds.push_back(newbird); // add the bird into the list so it can be iterated upon after.
 
     std::cout << "Object created at: " << x << " -- " << y << std:: endl; // a debug output
 }
 
 HUMania::~HUMania() {
     for (Unit* unit : birds) {
-        delete unit;
+        delete unit; // delete the values on unit pointers
     }
-    birds.clear();
+    birds.clear();  // a builtin function of lists which deletes the values / pointers in the list.
 }

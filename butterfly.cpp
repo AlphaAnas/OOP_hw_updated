@@ -1,5 +1,4 @@
 
-// }
 #include "butterfly.hpp"
 #include <vector>
 #include "unit.hpp"
@@ -81,12 +80,7 @@ Butterfly::Butterfly(int x, int y)
 
 }
 
-Butterfly::Butterfly(SDL_Rect srcRect1,SDL_Rect moverRect1)
-{   
-    std::cout<<"Paramterized constructor of Pigeon class called \n"; // this initializes pigeon1 pigeon2 and pigeon3 for animations using src_rectangle
-    srcRect = srcRect1;
-    moverRect = moverRect1;
-}
+
 
 
 

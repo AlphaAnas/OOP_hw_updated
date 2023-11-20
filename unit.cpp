@@ -14,13 +14,7 @@
         for different types of objects, therefore it’s not fully implemented rather
         it’s made virtual.              */
 
-        // Unit()
-        // {
-        //         // will make clouds and sun here.
-               
-        
-        // }
-     
+       
         void Unit::draw()
   
         {
@@ -29,6 +23,10 @@
         }
         void Unit::fly() {
                 std :: cout << "FLY() function of unit called \n";
+        }
+        bool Unit:: deleting()
+        {
+            return false;
         }
 
    
