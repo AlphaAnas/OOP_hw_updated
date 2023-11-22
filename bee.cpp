@@ -5,11 +5,7 @@
 
 
 const int SCREEN_WIDTH = 1000;
-const int SCREEN_HEIGHT = 600;
-
-
-
-
+const int SCREEN_HEIGHT = 600;  // default values of screen / window size
 
 
 
@@ -19,7 +15,7 @@ const int SCREEN_HEIGHT = 600;
     {
   
     
-        std::cout << "Fly function of Bee called \n";
+        //std::cout << "Fly function of Bee called \n";
         // Update the position of the pigeon
         if(isHovering) // if the required condition to hover the bee is satisfied
         {
@@ -31,7 +27,7 @@ const int SCREEN_HEIGHT = 600;
             }
         }
         else{
-            this->moverRect.x += 5;
+            this->moverRect.x += 5;  // move the bee to the right
             srand(time(NULL));
             if (rand() % 100 < hoverProb) { // this condition check if the probablity is less than 5 or not
                 isHovering = true;
@@ -80,9 +76,10 @@ Bee::Bee(int x, int y)
 }
     bool  Bee::deleting()
             {
-                std::cout << "Deleting function of bee called "<<std::endl;
+               
                 if(this->moverRect.x > SCREEN_WIDTH)
                 {
+                    std::cout << "Deleting function of bee called "<<std::endl;
                     return true; // check if the bee went off from the screen width
                 }
                 else{

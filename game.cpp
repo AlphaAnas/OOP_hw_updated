@@ -122,6 +122,7 @@ SDL_Texture* Game::loadTexture( std::string path )
 }
 void Game::run( )
 {
+	srand(time(NULL));
 	bool quit = false;
 	SDL_Event e;
 
